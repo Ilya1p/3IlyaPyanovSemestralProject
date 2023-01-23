@@ -13,8 +13,15 @@ public class Semprace {
         int n = sc.nextInt();
         if (n==1){
             vanoce();
-        }else{
+        
+        
+        }else if(n==2){
+            
             semPrace();
+    
+        }
+        else{
+            System.out.println("Nespravny simbol");
         }
     }
  public static void vanoce() {
